@@ -5,6 +5,9 @@ package essay.array;
  * @create 2020-10-05 16:15
  */
 public class Num167Test {
+    /*
+    好久考试开始开学上课常委会可获取我的我二月红
+     */
 }
 class Num167Solution {
     public int[] twoSum(int[] numbers, int target) {
