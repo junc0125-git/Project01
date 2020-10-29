@@ -1,4 +1,4 @@
-package com.unit08;
+package com.unit08.thread.lock;
 
 /**
  * @author cj

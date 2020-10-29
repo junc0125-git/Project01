@@ -1,4 +1,4 @@
-package com.unit08;
+package com.unit08.thread.method;
 
 /**
  * @author cj

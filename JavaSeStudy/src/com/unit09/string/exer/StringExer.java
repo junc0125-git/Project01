@@ -1,10 +1,8 @@
-package com.atguigu.java;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package com.unit09.string.exer;
 
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /*
  * 1.模拟一个trim方法，去除字符串两端的空格。

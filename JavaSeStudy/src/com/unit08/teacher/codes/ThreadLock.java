@@ -1,4 +1,4 @@
-package com.unit08.teacher;
+package com.unit08.teacher.codes;
 
 import java.util.concurrent.locks.ReentrantLock;
 

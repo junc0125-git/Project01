@@ -1,6 +1,7 @@
-package com.unit08;
+package com.unit08.thread.create;
 
-import com.unit08.teacher.codes.MyThread;
+
+
 
 /**
  * @author cj
