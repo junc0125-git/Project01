@@ -1,4 +1,4 @@
-package com.unit08.threads.comunication;
+package com.unit08.thread.comunication;
 
 /**
  * @author cj

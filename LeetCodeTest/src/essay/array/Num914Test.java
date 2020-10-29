@@ -5,6 +5,18 @@ package essay.array;
  * @create 2020-10-17 9:52
  */
 public class Num914Test {
+    public static void main(String[] args) {
+        String str="abcd";
+        System.out.println(str);
+        char[] c=str.toCharArray();
+        for (int i = 0; i < c.length; i++) {
+            System.out.println(c[i]);
+        }
+        String str1=c.toString();
+        int[] a={1,2,3};
+        System.out.println(a.toString());
+//        String str1=Character.toString();
+    }
 }
 /*
 class Num914Solution {

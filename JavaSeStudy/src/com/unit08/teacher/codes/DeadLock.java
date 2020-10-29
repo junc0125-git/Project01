@@ -1,4 +1,4 @@
-package com.unit08.teacher;
+package com.unit08.teacher.codes;
 
 class A {
 	public synchronized void foo(B b) {
