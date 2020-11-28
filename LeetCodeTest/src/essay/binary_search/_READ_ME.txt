@@ -14,3 +14,8 @@
 
 
         git用法：
+            1，add
+            2，commit
+            3，将远程仓库同步到本地  git pull
+            4，将本地更新到远程  git push
+
