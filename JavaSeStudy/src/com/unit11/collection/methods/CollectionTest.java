@@ -1,4 +1,4 @@
-package com.unit10.teachercodes.atguigu.java2;
+package com.unit11.collection.methods;
 
 import org.junit.Test;
 
@@ -24,17 +24,20 @@ import java.util.Date;
  *
  * 二、集合框架
  *      |----Collection接口：单列集合，用来存储一个一个的对象
- *          |----List接口：存储有序的、可重复的数据。  -->“动态”数组
- *              |----ArrayList、LinkedList、Vector
+ *      注：不提供此接口的任何直接实现，而是提供更具体的子接口(如：Set和List)实现
+ *          |----List接口：存储有序的、可重复的数据。  -->与数组特点相似，可称为“动态”数组
+ *              |----实现类：ArrayList、LinkedList、Vector
  *
  *          |----Set接口：存储无序的、不可重复的数据   -->高中讲的“集合”
- *              |----HashSet、LinkedHashSet、TreeSet
+ *              |----实现类：HashSet、LinkedHashSet、TreeSet
  *
  *      |----Map接口：双列集合，用来存储一对(key - value)一对的数据   -->高中函数：y = f(x)
- *              |----HashMap、LinkedHashMap、TreeMap、Hashtable、Properties
+ *              |----实现类：HashMap、LinkedHashMap、TreeMap、Hashtable、Properties
  *
  *
- * 三、Collection接口中的方法的使用
+ * 三、Collection接口中的方法的使用：
+ *      这些方法是其所有子接口实现类所共有的
+ * 8
  *
  * @author shkstart
  * @create 2019 下午 4:08
@@ -54,7 +57,8 @@ public class CollectionTest {
         //size():获取添加的元素的个数
         System.out.println(coll.size());//4
 
-        //addAll(Collection coll1):将coll1集合中的元素添加到当前的集合中
+        //addAll(Collection coll1):将一个集合的元素全部添加到另一个集合中
+        // 将coll1集合中的元素添加到当前的集合中
         Collection coll1 = new ArrayList();
         coll1.add(456);
         coll1.add("CC");
